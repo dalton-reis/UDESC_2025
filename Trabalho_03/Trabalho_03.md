@@ -8,59 +8,6 @@ Para explicar o conceito sendo tratado no artigo, o aluno não está limitado ao
 
 Todas as referências amais que forem usadas devem ser em inglês e de periódicos científicos.
 
-## Estrutura
-
-Capa: Referência bibliográfica, Aluno, Professor e Universidade (template da UDESC, ver artigo aluno)  
-
-Mostrar mapa bolhas das referências que o artigo usou  
-Mostrar mapa bolhas das referências relacionadas com esse artigo  
-
-O argumento central desse artigo foi que, através da configuração e análise apropriadas dessas propriedades, os limites da realidade mista podem suportar uma gama diversificada de aplicações.  
-
-Mapa com visão geral - propriedades de limites da RM  
-  Introdução
-  
-  Conceitos
-    Propriedades  
-      Permeabilidade  
-        Visibilidade  
-        Audibilidade  
-          Efeitos  
-            Atenuação  
-            Amplificação  
-            Transformação  
-            Agregação  
-        Solidez  
-      Situação  
-        Localização  
-        Alinhamento  
-        Mobilidade  
-        Segmentação  
-      Dinâmico  
-        Vida  
-        Configurabilidade  
-    Meta-propriedades  
-      Simetria  
-      Representação  
-
-  Demostração
-    CSCW - Computer-Supported Cooperative Work  
-    Cenário 1: apresentação artista  
-    Cenário 2: "porta" de escritório  
-
-Comparação e discussão  
-
-  Resumo das propriedades nos dois cenários  
-
-Conclusões e Extensões
-
-  Maximizar a implementação das propriedades de limite  
-    dificuldade de criar limites não sólidos  
-      Ex.: participante ir do real para o virtual(teatro - projetar imagens na cortina vertical de água)  
-      Ex.: cidade real/virtual onde veículo "mudava" entre mundo real e virtual  
-
-  Estudo dessas propriedades podem ajudar no desenvolvimento de novas técnicas para unir os domínios do espaço físico e digital.  
-
 ## Lista de artigos
 
 Koleva, B., Benford, S., and Greenhalgh, C. (1999). The Properties of Mixed Reality Boundaries. Dordrecht: Springer. doi: 10.1007/978-94-011-4441-4_7  

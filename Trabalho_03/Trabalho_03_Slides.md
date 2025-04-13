@@ -15,7 +15,7 @@ UDESC - Centro de Ciências Tecnológicas
 
 ### Introdução
 
-As Propriedades das Fronteiras da Realidade Mista (RM):
+Assunto: as Propriedades das Fronteiras da Realidade Mista (RM):
 
 - crescente interesse  em técnicas para combinar (diminuir a fronteira entre) ambientes reais e virtuais
   - fronteira "transparente"
