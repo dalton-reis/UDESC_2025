@@ -155,7 +155,9 @@ Estudo dessas propriedades podem ajudar no desenvolvimento de novas técnicas pa
 
 Matheus Waltrich da Silva, Dalton Solano dos Reis – Orientador  
 ![Trabalho_03_Slides_Figura7](Trabalho_03_Slides_Figura7.png)  
+  
 ![Trabalho_03_Slides_Figura8](Trabalho_03_Slides_Figura8.png)  
+  
 ![Trabalho_03_Slides_Figura9](Trabalho_03_Slides_Figura9.png)  
 Fonte: <https://github.com/gcgfurb/tcc_MatheusWaltrichDaSilva/blob/master/textos/tcc_bcc_2020_1_matheuswaltrich_MatheusWaltrichDaSilva-VF.pdf>  
 
