@@ -165,3 +165,5 @@ Fonte: <https://github.com/gcgfurb/tcc_MatheusWaltrichDaSilva/blob/master/textos
 
 Projeto Pesquisa  
 ![Trabalho_03_Slides_Figura10](Trabalho_03_Slides_Figura10.png)  
+
+## [Artigo](./artigo.pdf)  

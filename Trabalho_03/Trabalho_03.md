@@ -48,3 +48,12 @@ Alexandre Altair De Melo
 
 Weinberger, Markus. What Is Metaverse? A Definition Based on Qualitative Meta-Synthesis. October 2022. Future Internet 14(11):310. DOI: 10.3390/fi14110310  
 Nathalia Cardoso De Miranda  
+
+##
+
+Graduação  
+Lucas  
+Realidade Cruzada (sobreposta e não sobreposta)  
+
+Gabriel  
+Realidade Diminuída  
