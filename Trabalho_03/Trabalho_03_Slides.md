@@ -36,7 +36,7 @@ Assunto: as Propriedades das Fronteiras da Realidade Mista (RM):
 Escolha dessas propriedades foi influenciada por analogias com as fronteiras do mundo real que dividem o espaço físico.  
 Trabalho anterior: desenvolvimento de fronteiras dentro do espaço virtual (Benford *et al*., 1997a)  
 
-#### Permeabilidade  
+#### Permeabilidade (Visibilidade, Audibilidade e Solidez)  
 
 Descreve como a fronteira afeta a informação sensorial que passa entre os espaços conectados.  
 
@@ -70,7 +70,7 @@ Visibilidade e Audibilidade melhor descritas com a combinação desses efeitos:
   - Digital Desk (Wellner, 1993)
   - Clearboard (Ishii & Kobayashi, 1992)
 
-#### Situação  
+#### Situação (Localização, Alinhamento, Mobilidade e Segmentação)  
 
 - relações espaciais, participantes e objetos desses espaços
 - localização da fronteira: fixa e segmentada
@@ -94,11 +94,11 @@ Visibilidade e Audibilidade melhor descritas com a combinação desses efeitos:
 
 - fronteira pode ser segmentada em termos de suas propriedades e de sua localização espacial
 
-#### Dinâmico  
+#### Dinâmico (Tempo de Vida e Configurabilidade)  
 
 - propriedades temporais da fronteira
 
-##### Vida
+##### Tempo de Vida
 
 - duração de tempo que a fronteira existe
 
@@ -106,7 +106,7 @@ Visibilidade e Audibilidade melhor descritas com a combinação desses efeitos:
 
 - quão dinamicamente as diversas propriedades da fronteira podem ser alteradas
 
-### Meta-propriedades  
+### Meta-propriedades (Simetria e Representação)  
 
 #### Simetria
 
