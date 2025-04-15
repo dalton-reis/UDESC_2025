@@ -28,11 +28,12 @@ Parte 2: Métodos, Técnicas e Tecnologias
 Parte 3: Aplicações (desatualizado)  
 
 HP - Hiper Realidade  
-XR -  
+XR - Realidade Estendida  
 RV -  
 RA -  
 VA -  
 JG -  
+Gêmeo Digital - Industria 4.0  
 
 Imersão  
 Presença TODO: não tem esse conceito no conteúdo de RV  
