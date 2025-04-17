@@ -4,25 +4,19 @@
 \usepackage{graphicx,url}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
+\usepackage{svg}
 % \usepackage[latin1]{inputenc}  
 
-     
 \sloppy
 
-\title{Título do Artigo:\\ Um Exemplo em Latex}
+\title{Título do Artigo:\\ Subtítulo do artigo}
 
-\author{Dalton Solano dos Reis\inst{1}, Rafael H. Bordini\inst{1}, Flávio Rech
-  Wagner\inst{1}, Jomi F. Hübner\inst{2} }
+\author{Dalton Solano dos Reis\inst{1}, Luciana P. de A. Kohler \inst{1}, Marcelo da Silva Hounsell\inst{2} }
 
-
-\address{Instituto de Informática -- Universidade Federal do Rio Grande do Sul
-  (UFRGS)\\
-  Caixa Postal 15.064 -- 91.501-970 -- Porto Alegre -- RS -- Brazil
+\address{Departamento de Sistemas e Computação\\ Universidade Regional de Blumenal (FURB) -- Blumenau, SC -- Brazil
 \nextinstitute
-  Departamento de Sistemas e Computação\\
-  Universidade Regional de Blumenal (FURB) -- Blumenau, SC -- Brazil
-  \email{\{nedel,flavio\}@inf.ufrgs.br, R.Bordini@durham.ac.uk,
-  jomi@inf.furb.br}
+  Centro de Ciências Tecnológicas\\ Universidade do Estado de Santa Catarina (UDESC) -- Joinville, SC -- Brazil
+\email{\{dalton,Lpa\}@furb.br, marcelo.hounsell@udesc.br}
 }
 
 \begin{document} 
@@ -30,37 +24,20 @@
 \maketitle
 
 \begin{abstract}
-  This meta-paper describes the style to be used in articles and short papers
-  for SBC conferences. For papers in English, you should add just an abstract
-  while for the papers in Portuguese, we also ask for an abstract in
-  Portuguese (``resumo''). In both cases, abstracts should not have more than
-  10 lines and must be in the first page of the paper.
+  This meta-paper describes the style to be used in articles and short papers for SBC conferences. For papers in English, you should add just an abstract while for the papers in Portuguese, we also ask for an abstract in Portuguese (``resumo''). In both cases, abstracts should not have more than 10 lines and must be in the first page of the paper.
 \end{abstract}
      
 \begin{resumo} 
-  Este meta-artigo descreve o estilo a ser usado na confecção de artigos e
-  resumos de artigos para publicação nos anais das conferências organizadas
-  pela SBC. É solicitada a escrita de resumo e abstract apenas para os artigos
-  escritos em português. Artigos em inglês deverão apresentar apenas abstract.
-  Nos dois casos, o autor deve tomar cuidado para que o resumo (e o abstract)
-  não ultrapassem 10 linhas cada, sendo que ambos devem estar na primeira
-  página do artigo.
+  Este meta-artigo descreve o estilo a ser usado na confecção de artigos e resumos de artigos para publicação nos anais das conferências organizadas pela SBC. É solicitada a escrita de resumo e abstract apenas para os artigos escritos em português. Artigos em inglês deverão apresentar apenas abstract. Nos dois casos, o autor deve tomar cuidado para que o resumo (e o abstract) não ultrapassem 10 linhas cada, sendo que ambos devem estar na primeira página do artigo.
 \end{resumo}
 
+\section{Informações Gerais}
 
-\section{General Information}
+Todos os artigos completos e pôsteres (artigos curtos) submetidos a algum congresso da SBC, incluindo quaisquer documentos de apoio, devem ser redigidos em inglês ou em português. O formato do artigo deve ser A4, com uma única coluna, margem superior de 3,5 cm, inferior de 2,5 cm e margens laterais de 3,0 cm, sem cabeçalhos ou rodapés. A fonte principal deve ser Times, tamanho nominal 12, com espaçamento de 6 pontos antes de cada parágrafo. A numeração das páginas deve ser suprimida.
 
-All full papers and posters (short papers) submitted to some SBC conference,
-including any supporting documents, should be written in English or in
-Portuguese. The format paper should be A4 with single column, 3.5 cm for upper
-margin, 2.5 cm for bottom margin and 3.0 cm for lateral margins, without
-headers or footers. The main font must be Times, 12 point nominal size, with 6
-points of space before each paragraph. Page numbers must be suppressed.
+Artigos completos devem respeitar os limites de páginas definidos pela conferência. Conferências que publicam apenas resumos solicitam textos de \textbf{uma} página.
 
-Full papers must respect the page limits defined by the conference.
-Conferences that publish just abstracts ask for \textbf{one}-page texts.
-
-\section{First Page} \label{sec:firstpage}
+\section{Primeira Página} \label{sec:firstpage}
 
 The first page must display the paper title, the name and address of the
 authors, the abstract in English and ``resumo'' in Portuguese (``resumos'' are
@@ -92,49 +69,50 @@ Section titles must be in boldface, 13pt, flush left. There should be an extra
 paragraph of each section should not be indented, while the first lines of
 subsequent paragraphs should be indented by 1.27 cm.
 
-\subsection{Subsections}
+\subsection{Subseção}
 
-The subsection titles must be in boldface, 12pt, flush left.
+O título da subseção deve ser em negrito, 12pt, alinhado à esquerda.
 
-\section{Figures and Captions}\label{sec:figs}
+\section{Figuras e Legendas}\label{sec:figs}
 
-
-Figure and table captions should be centered if less than one line
-(Figure~\ref{fig:exampleFig1}), otherwise justified and indented by 0.8cm on
-both margins, as shown in Figure~\ref{fig:exampleFig2}. The caption font must
-be Helvetica, 10 point, boldface, with 6 points of space before and after each
-caption.
+As legendas de figuras e tabelas devem ser centralizadas se tiverem menos de uma linha (Figure~\ref{fig:exampleFig1}), caso contrário, devem ser justificadas e com 0,8 cm de recuo em ambas as margens, como mostrado na Figure~\ref{fig:exampleFig2}. A fonte da legenda deve ser Helvetica, tamanho 10, em negrito, com 6 pontos de espaçamento antes e depois de cada legenda.
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.5\textwidth]{fig1.jpg}
-\caption{A typical figure}
+\caption{Uma figura típica}
 \label{fig:exampleFig1}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.3\textwidth]{fig2.jpg}
-\caption{This figure is an example of a figure caption taking more than one
-  line and justified considering margins mentioned in Section~\ref{sec:figs}.}
+\caption{Esta figura é um exemplo de uma legenda de figura que ocupa mais de uma linha e 
+está justificada, considerando os margens mencionados na Seção~\ref{sec:figs}.}
 \label{fig:exampleFig2}
 \end{figure}
 
-In tables, try to avoid the use of colored or shaded backgrounds, and avoid
-thick, doubled, or unnecessary framing lines. When reporting empirical data,
-do not use more decimal digits than warranted by their precision and
-reproducibility. Table caption must be placed before the table (see Table 1)
-and the font used must also be Helvetica, 10 point, boldface, with 6 points of
-space before and after each caption.
+Em tabelas, tente evitar o uso de fundos coloridos ou sombreado, e evite linhas de contorno 
+grossas, duplicadas ou desnecessárias. Ao relatar dados empíricos, não use mais dígitos decimais 
+do que a precisão e reprodutibilidade dos dados exigem. A legenda da tabela deve ser colocada 
+antes da tabela (veja a Tabela 1) e a fonte utilizada deve ser Helvetica, tamanho 10, em negrito, 
+com 6 pontos de espaço antes e depois de cada legenda.
 
 \begin{table}[ht]
-\centering
-\caption{Variables to be considered on the evaluation of interaction
-  techniques}
-\label{tab:exTable1}
-\includegraphics[width=.7\textwidth]{table.jpg}
+  \centering
+  \caption{Variáveis a serem consideradas na avaliação das técnicas de interação}
+  \label{tab:exTable1}
+  \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Cidade} & \textbf{População} & \textbf{Crescimento} \\
+    \hline
+    Blumenau & 2.123 & 23,56 \\
+    Gaspar & 1.340 & 3,40 \\
+    Ilhota & 204 & 1,02 \\
+    \hline
+  \end{tabular}
 \end{table}
-
+    
 \section{Images}
 
 All images and illustrations should be in black-and-white, or gray tones,
@@ -146,13 +124,9 @@ visible difference in the result.
 
 \section{References}
 
-Bibliographic references must be unambiguous and uniform.  We recommend giving
-the author names references in brackets, e.g. \cite{kolevaPropertiesMixedReality2002}.
+As citações e referências devem seguir as normas da ABNT. Recomendamos que os nomes dos autores sejam dados entre colchetes, por exemplo: \cite{kolevaPropertiesMixedReality1999} e \cite{toriIntroducaoRealidadeVirtual2020}.
 
-
-The references must be listed using 12 point font size, with 6 points of space
-before each reference. The first line of each reference should not be
-indented, while the subsequent should be indented by 0.5 cm.
+As referências devem ser listadas utilizando fonte tamanho 12, com 6 pontos de espaço antes de cada referência. A primeira linha de cada referência não deve ser indentada, enquanto as subsequentes devem ser indentadas por 0,5 cm.
 
 \bibliographystyle{sbc}
 \bibliography{../UDESC_RV}
