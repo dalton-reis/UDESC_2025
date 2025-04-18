@@ -1,6 +1,11 @@
 % Adiciona workflow para compilar LaTeX para PDF
 % https://chatgpt.com/share/68016842-23b8-8008-bafb-2084e351a35c
 
+% SVG
+% pdflatex --shell-escape arquivo.tex
+
+% PlantUML
+% https://chatgpt.com/share/68018f2e-9cf4-8008-b2e2-87a70beddf46
 
 \documentclass[12pt]{article}
 
@@ -9,6 +14,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
 \usepackage{svg}
+% \usepackage{plantuml}
+\usepackage{float}
 
 \sloppy
 
@@ -67,7 +74,7 @@ As legendas de figuras e tabelas devem ser centralizadas se tiverem menos de uma
 
 \begin{figure}[ht]
 \centering
-\includesvg[width=.3\textwidth]{fig3.drawio}
+\fbox{\includesvg[width=.3\textwidth]{fig3.drawio}}
 \caption{Esta figura é um exemplo de uma legenda de figura que ocupa mais de uma linha e 
 está justificada, considerando os margens mencionados na Seção~\ref{sec:figs}.}
 \label{fig:exampleFig2}
@@ -93,6 +100,8 @@ Em tabelas, tente evitar o uso de fundos coloridos ou sombreado, e evite linhas 
 \section{Images}
 
 Todas as imagens e ilustrações devem ser em preto e branco ou tons de cinza, exceto para os artigos que estarão disponíveis eletronicamente (em CD-ROMs, internet, etc.). A resolução das imagens no papel deve ser de cerca de 600 dpi para imagens em preto e branco, e de 150-300 dpi para imagens em escala de cinza. Não inclua imagens com resolução excessiva, pois elas podem demorar horas para imprimir, sem apresentar nenhuma diferença visível no resultado.
+
+\input{plantUML}
 
 \section{References}
 
