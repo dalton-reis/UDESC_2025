@@ -71,23 +71,42 @@ Interação: social e econômica (própria)
 Meta: Horizon Worlds  
 Descreve um ambiente online tridimensional no qual usuários representados por avatares interagem entre si em espaços virtuais dissociados do mundo físico real.  
 
-### Pós
 
-Lauro Gripa  
+#### 2025-04-14
+
+**LauroGripaNeto**  
 2025-04-14 - 16:31  
 Azuma  
 Sensorial e Contextual  
 Registro 3D  
 
-Alexandre
+**AlexandreAltairDeMelo**  
 Passou um pouco tempo  
 Telepresença: trazer espaço sensorial para do mundo longe para pessoa do mundo que ela está.  
 
-Dalton  
+**DaltonSolanoDosReis**  
 
-Luciana
+**LucianaPereiraDeAraujoKohler**  
 9 minutos  
 
-Monica
+**MonicaAparecidaAsquino**  
 Classifica todas as Realidades  
-9,52
+9,52  
+
+====
+
+**AntonioCastanoMoraes**  
+
+**HenriqueSantAnnaDeFaria**  
+
+**BrennoHenriqueRamosDomingues**  
+
+**NathaliaCardosoDeMiranda**  
+
+**LidomarBecker**  
+
+**JoaoEstevaoSchlemmCosta**  
+
+**MatheusNicolasHernandez**  
+
+**LuisAlfredoDaSilva**  
