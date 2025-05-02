@@ -4,7 +4,7 @@ Projeto Digital Lollipop, liderado por Nimesha Ranasinghe, que explora a simula√
 
 ## Video
 
-<video controls src="Artigos_DigitalLollipop.mp4" title="Title"></video>
+![Artigos_DigitalLollipop](Artigos_DigitalLollipop.mov)  
 <https://www.youtube.com/watch?v=iahlnE0cGlk>  
 
 ## Digital Lollipop: Studying Electrical Stimulation on the Human Tongue to Simulate Taste Sensations

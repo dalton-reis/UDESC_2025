@@ -6,7 +6,7 @@ O Project Nourished é uma iniciativa inovadora que combina realidade virtual, i
 
 ## Video
 
-<video controls src="Artigos_ProjectNourished.mp4" title="Title"></video>  
+![Artigos_ProjectNourished](Artigos_ProjectNourished.mp4)  
 <https://www.youtube.com/watch?v=IbpPJmbhB-A>  
 
 ## Virtual Reality Heads to the Kitchen at Project Nourished
