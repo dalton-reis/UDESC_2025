@@ -1,6 +1,6 @@
 # Trabalho 4 - Interfaces Gustativas
 
-Os Slides estão em: [main.pdf](Slides/main.pdf)
+Os Slides estão em: [slides.pdf](Slides/slides.pdf)
 
 ## Pesquisa
 
