@@ -1,6 +1,8 @@
 # Trabalho 4 - Interfaces Gustativas
 
-## Enunciado
+## Pesquisa
+
+### Enunciado
 
 Dalton S. dos Reis  
 **Paladar**  
@@ -14,14 +16,9 @@ a. Fone de Ouvido Háptico \[Razer] Nari Ultimate, 2018
 b. Olfato  
 c. **Paladar**  
 
-## Livro
+### Livro
 
 TORI, R.; HOUNSELL, M. DA S. Introdução a Realidade Virtual e Aumentada. \[s.l.] Sociedade Brasileira de Computação, 2020.  
-
-Apresentam em dois grupos, dos sentidos:
-
-- visão, audição e tato  
-- olfato e palar  
 
 Pag. 52 __  
 2.7.5 Realidade Cruzada (RC) e Virtualidade Ubíqua (VU)  O uso de dispositivos de RV, como luvas hápticas por exemplo, permite que o usuário sinta o mundo virtual “na pele” (literalmente). Feedback háptico de toque, força, colisão, temperatura e até cheiro e **paladar** têm sido alvo de investigações e produtos inovadores. Entretanto, quando na Realidade Misturada se tem ações no mundo virtual que repercutem no mundo real, daí tem-se a Realidade Cruzada (RC), ou no inglês, Cross Reality (XR).  
@@ -40,13 +37,20 @@ Pag. 407 __
 Também permite maior interação quando se utiliza acessórios para aumentar a percepção dos cinco sentidos do ser humano (audição, visão, tato, **paladar**, olfato).  
 -> acessórios para aumentar a percepção  
 
-## Pesquisa
+## Conceitos
+
+### Visão geral
 
 Existem dispositivos experimentais de **paladar** para Realidade Virtual (VR), mas ainda estão em estágios iniciais de desenvolvimento e não são amplamente disponíveis como os dispositivos visuais, auditivos ou táteis (hápticos).  
 
+Apresentam em dois grupos, dos sentidos:
+
+- visão, audição e tato  
+- olfato e palar  
+
 ### Dispositivos de paladar em VR (Taste Interfaces - Interfaces de Sabor)  
 
-Esses dispositivos tentam simular sabores usando diferentes métodos, como:  
+Esses dispositivos tentam simular sabores usando diferentes **métodos**, como:  
 
 #### 1. Estimulação elétrica da língua
 
@@ -67,13 +71,6 @@ Esses dispositivos tentam simular sabores usando diferentes métodos, como:
 
 - Combina realidade aumentada com alimentos reais — por exemplo, comer algo neutro (como um biscoito sem sabor), enquanto o sistema altera visualmente e aromaticamente o alimento, convencendo o cérebro de que é algo diferente.  
   
-#### Situação atual
-
-- A maioria desses dispositivos ainda está em fase de protótipo ou pesquisa.  
-- Desafios incluem: segurança, higiene, precisão do sabor e sincronização com experiências imersivas.  
-
----
-
 ### Exemplos de dispositivos  
 
 - Digital Lollipop  
@@ -83,7 +80,7 @@ Esses dispositivos tentam simular sabores usando diferentes métodos, como:
 - Virtual Cookie  
 - Vocktail (Virtual Cocktail)  
 
-#### Digital Lollipop – Estimulação Elétrica da Língua
+#### Digital Lollipop - Estimulação Elétrica da Língua
 
 - Desenvolvedor: Nimesha Ranasinghe e equipe na Universidade Nacional de Singapura.  
 - Funcionamento: utiliza estimulação elétrica e térmica na língua para simular os quatro sabores básicos: doce, salgado, azedo e amargo.  
@@ -96,9 +93,9 @@ Esses dispositivos tentam simular sabores usando diferentes métodos, como:
 #### Project Nourished
 
 - Desenvolvedor: Jinsoo An e equipe.  
-- Funcionamento: Integra VR, alimentos impressos em 3D, difusores de aromas e utensílios com sensores para criar experiências gastronômicas imersivas. Por exemplo, uma gelatina neutra pode ser percebida como uma torta de maçã ao combinar estímulos visuais, olfativos e táteis.  
 - Objetivo: criar experiências gastronômicas virtuais que proporcionem prazer e satisfação sem calorias ou impacto no açúcar no sangue.  
-- Funcionamento: utiliza alimentos comestíveis de baixa caloria, impressoras 3D e simulações em VR para transformar a aparência e o sabor percebido dos alimentos, como transformar uma gelatina em uma torta de maçã virtual.  
+- Funcionamento: utiliza alimentos comestíveis de baixa caloria impressos em 3D, difusores de aromas e utensílios com sensores para criar experiências gastronômicas imersivas e simulações em VR.  
+- Exemplo: gelatina neutra pode ser percebida como uma torta de maçã ao combinar estímulos visuais, olfativos e táteis.  
 
 [Artigos_ProjectNourished](Artigos_ProjectNourished.md)  
 
@@ -122,15 +119,11 @@ Precisão: testes demonstraram uma precisão de 70% na identificação de intens
 
 Modifica sabor da água com estímulos elétricos e LED, além de aroma.  
 
-### Interfaces Gustativas Portáteis
-
-- Desenvolvimento: pesquisadores têm criado dispositivos portáteis em forma de pirulito que utilizam hidrogéis com substâncias químicas comestíveis. Esses dispositivos podem gerar de 2 a 9 sabores diferentes por meio de iontoforese, permitindo ajustes na intensidade do sabor conforme a voltagem aplicada.  
-
-### Aplicações
+## Aplicações
 
 Áreas: entretenimento, saúde (reabilitação sensorial), educação (treinamento profissional), indústria alimentícia e gastronomia virtual.  
 
-#### Gastronomia Virtual
+### Gastronomia Virtual
 
 Objetivo: explorar, testar e experienciar alimentos digitalmente.  
 Aplicações:  
@@ -141,7 +134,7 @@ Aplicações:
 
 Exemplo real: Project Nourished - combina realidade virtual, aromas e alimentos impressos em 3D para simular refeições calóricas sem afetar a dieta.  
 
-#### Reabilitação Sensorial e Saúde
+### Reabilitação Sensorial e Saúde
 
 Objetivo: ajudar pacientes com perda ou distúrbio de paladar a recuperar ou simular experiências gustativas.  
 Aplicações:  
@@ -152,7 +145,7 @@ Aplicações:
 
 Exemplo: Digital Lollipop - pode ser usado para estimular o paladar de forma segura, criando sensações doces ou salgadas sem ingestão real.  
 
-#### Treinamento Profissional (Culinária, Saúde, Segurança Alimentar)
+### Treinamento Profissional (Culinária, Saúde, Segurança Alimentar)
 
 Objetivo: oferecer ambientes realistas para treinamento prático com redução de custos e riscos.  
 Aplicações:  
@@ -160,6 +153,15 @@ Aplicações:
 - Treinamento de chefs e sommeliers: aprender a identificar e combinar sabores complexos sem o uso contínuo de ingredientes caros ou perecíveis.  
 - Educação em nutrição e segurança alimentar: simular reações a ingredientes estragados, contaminados ou perigosos sem exposição real.  
 - Simulações médicas: treinar profissionais para reconhecer sinais de disfunções gustativas em pacientes, ou entender como certas doenças afetam o paladar.  
+
+## Situação atual
+
+- A maioria desses dispositivos ainda está em fase de protótipo ou pesquisa.  
+- Desafios incluem: segurança, higiene, precisão do sabor e sincronização com experiências imersivas.  
+
+### Interfaces Gustativas Portáteis
+
+- Desenvolvimento: pesquisadores têm criado dispositivos portáteis em forma de pirulito que utilizam hidrogéis com substâncias químicas comestíveis. Esses dispositivos podem gerar de 2 a 9 sabores diferentes por meio de iontoforese, permitindo ajustes na intensidade do sabor conforme a voltagem aplicada.  
 
 ### Desafios
 
