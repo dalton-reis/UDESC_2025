@@ -83,6 +83,17 @@ Esses dispositivos tentam simular sabores usando diferentes **métodos**, como:
 - Meta Cookie+  
 - Virtual Cookie  
 - Vocktail (Virtual Cocktail)  
+- Thermal Taste Actuator  
+- Taste Display - Norimaki Synthesizer  
+- AR Taste Enhancers  
+- Norimaki Synthesizer  
+- Taste Display System (TD)  
+- Mixed Reality Kitchen Tools  
+- Virtual Sweet Spoon  
+- Electric Taste Machine  
+- Gustatory Display for VR/AR (Taste+ Project)  
+- Augmented Gustation using Visual Cues (MIT Media Lab)  
+- Multisensory XR System com Feedback Gustativo Integrado (HCI Labs)  
 
 #### Digital Taste Interface (DTI) - Digital Lollipop
 
@@ -138,8 +149,9 @@ Modifica sabor da água com estímulos elétricos e LED, além de aroma.
 
 Áreas: entretenimento, saúde (reabilitação sensorial), educação (treinamento profissional), indústria alimentícia e gastronomia virtual.  
 
-### Gastronomia Virtual
+### Mixed Reality Kitchen: Gastronomia Virtual e Simuladores Culinários
 
+Uso: treinamentos em gastronomia, design de alimentos e jogos com feedback sensorial.  
 Objetivo: explorar, testar e experienciar alimentos digitalmente.  
 Aplicações:  
 
@@ -147,6 +159,7 @@ Aplicações:
 - Marketing de alimentos: marcas podem criar experiências de degustação virtual para que consumidores "provem" um produto antes de comprá-lo.  
 - Experiências gastronômicas imersivas: restaurantes futuristas podem oferecer jantares temáticos em VR com pratos reais que mudam de “sabor” virtualmente, usando estímulos visuais e gustativos coordenados.  
 
+Exemplo: pesquisas de realidade aumentada combinando cheiro, textura visual e estímulos de paladar em utensílios como garfos ou canudos que usam estímulos elétricos.  
 Exemplo real: Project Nourished - combina realidade virtual, aromas e alimentos impressos em 3D para simular refeições calóricas sem afetar a dieta.  
 
 ### Reabilitação Sensorial e Saúde
