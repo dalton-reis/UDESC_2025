@@ -18,6 +18,8 @@ a. Fone de Ouvido Háptico \[Razer] Nari Ultimate, 2018
 b. Olfato  
 c. **Paladar**  
 
+A a experiência **gustativa** humana, que envolve também olfato e textura.  
+
 ### Livro
 
 TORI, R.; HOUNSELL, M. DA S. Introdução a Realidade Virtual e Aumentada. \[s.l.] Sociedade Brasileira de Computação, 2020.  
@@ -82,15 +84,16 @@ Esses dispositivos tentam simular sabores usando diferentes **métodos**, como:
 - Virtual Cookie  
 - Vocktail (Virtual Cocktail)  
 
-#### Digital Lollipop - Estimulação Elétrica da Língua
+#### Digital Taste Interface (DTI) - Digital Lollipop
 
-- Desenvolvedor: Nimesha Ranasinghe e equipe na Universidade Nacional de Singapura.  
+- Desenvolvedor: Nimesha Ranasinghe e equipe na Universidade Nacional de Singapura (NUS).  
 - Funcionamento: utiliza estimulação elétrica e térmica na língua para simular os quatro sabores básicos: doce, salgado, azedo e amargo.  
 - Aplicações: além de entretenimento, tem potencial para auxiliar pessoas com restrições alimentares, como diabéticos, ao simular sabores sem a ingestão real de açúcar.  
 - Dispositivo:  utiliza eletrodos de prata posicionados na ponta da língua para aplicar correntes elétricas de baixa intensidade, com variações de magnitude, frequência e polaridade.  
 - Explora o conceito: **Taste Over Internet Protocol** (TOIP), visando transmitir informações gustativas digitalmente entre locais distintos.  
+- Ano: 2013 (protótipo inicial).  
 
-[Artigos_DigitalLollipop](Artigos_DigitalLollipop.md)  
+[Artigos_DigitalLollipop](./Artigos_DigitalLollipop.md)  
 
 #### Project Nourished
 
@@ -99,13 +102,23 @@ Esses dispositivos tentam simular sabores usando diferentes **métodos**, como:
 - Funcionamento: utiliza alimentos comestíveis de baixa caloria impressos em 3D, difusores de aromas e utensílios com sensores para criar experiências gastronômicas imersivas e simulações em VR.  
 - Exemplo: gelatina neutra pode ser percebida como uma torta de maçã ao combinar estímulos visuais, olfativos e táteis.  
 
-[Artigos_ProjectNourished](Artigos_ProjectNourished.md)  
+[Artigos_ProjectNourished](./Artigos_ProjectNourished.md)  
 
 #### e-Taste – Simulação Química de Sabores
 
 - Desenvolvedor: Universidade Estadual de Ohio (Ohio State University).  
 - Funcionamento: combina sensores e dispensadores químicos para replicar os cinco sabores básicos (doce, salgado, azedo, amargo e umami) na boca do usuário. O sistema utiliza uma "língua eletrônica" para capturar dados de sabor e pequenas bombas eletromagnéticas para liberar substâncias químicas específicas na língua do usuário.  
 Precisão: testes demonstraram uma precisão de 70% na identificação de intensidades azedas e 87% em combinações de sabores como limonada, bolo e café.  
+Apresentado em março de 2025 na revista Science Advances, o dispositivo visa adicionar uma dimensão gustativa às experiências digitais, ampliando a imersão sensorial dos usuários.  
+
+O sistema é composto por três componentes principais: ￼
+
+- Sensor químico: identifica moléculas específicas, como glicose e glutamato, representando os cinco sabores básicos: doce, azedo, salgado, amargo e umami. ￼
+- Transmissão sem fio: os dados captados pelo sensor são enviados a um dispositivo remoto via Bluetooth. ￼
+- Interface bucal com bomba eletromagnética: utiliza microfluídica para liberar soluções químicas através de um gel especial diretamente na língua do usuário, simulando os sabores detectados.  
+A intensidade do sabor pode ser ajustada conforme o tempo de interação da solução com o gel, permitindo a criação de sensações gustativas complexas.  
+
+[Artigos_eTaste](./Artigos_eTaste.md)
 
 #### Meta Cookie+
 
