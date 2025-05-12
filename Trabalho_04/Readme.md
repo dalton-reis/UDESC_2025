@@ -78,22 +78,19 @@ Esses dispositivos tentam simular sabores usando diferentes **métodos**, como:
 ### Exemplos de dispositivos  
 
 - Digital Lollipop  
+- Vocktail (Coquetel)  
 - Project Nourished  
 - e-Taste  
 - Meta Cookie+  
-- Virtual Cookie  
-- Vocktail (Virtual Cocktail)  
 - Thermal Taste Actuator  
-- Taste Display - Norimaki Synthesizer  
+- Taste Display Synthesizer  
 - AR Taste Enhancers  
-- Norimaki Synthesizer  
-- Taste Display System (TD)  
-- Mixed Reality Kitchen Tools  
+- Mixed Reality Kitchen  
 - Virtual Sweet Spoon  
 - Electric Taste Machine  
-- Gustatory Display for VR/AR (Taste+ Project)  
-- Augmented Gustation using Visual Cues (MIT Media Lab)  
-- Multisensory XR System com Feedback Gustativo Integrado (HCI Labs)  
+- Taste+ Project  
+- Augmented Gustation  
+- Multisensory XR System  
 
 #### Digital Taste Interface (DTI) - Digital Lollipop
 
@@ -104,7 +101,24 @@ Esses dispositivos tentam simular sabores usando diferentes **métodos**, como:
 - Explora o conceito: **Taste Over Internet Protocol** (TOIP), visando transmitir informações gustativas digitalmente entre locais distintos.  
 - Ano: 2013 (protótipo inicial).  
 
-[Artigos_DigitalLollipop](./Artigos_DigitalLollipop.md)  
+[DigitalLollipop](./DigitalLollipop.md)  
+
+#### Vocktail (Virtual Cocktail)
+
+Modifica sabor da água com estímulos elétricos e LED, além de aroma.  
+O Vocktail (Virtual Cocktail - Coquetel) é um dispositivo interativo desenvolvido por Nimesha Ranasinghe e sua equipe no Keio-NUS CUTE Center, projetado para simular experiências multissensoriais de sabor. Ele combina estímulos visuais, gustativos e olfativos para alterar a percepção do sabor de bebidas, permitindo que, por exemplo, água simples seja percebida como um coquetel saboroso.  
+Ano: 2017.  
+
+O Vocktail consiste em uma taça integrada a uma base impressa em 3D, que abriga os componentes eletrônicos responsáveis pela estimulação multissensorial. O sistema utiliza três modalidades sensoriais para criar sabores virtuais:  
+
+- estímulo visual: LEDs RGB projetam luzes coloridas na bebida, influenciando a expectativa de sabor.  
+- estímulo gustativo: eletrodos de prata na borda da taça aplicam correntes elétricas controladas na ponta da língua, simulando sensações de salgado, azedo ou amargo.  
+- estímulo olfativo: microbombas de ar liberam aromas de cartuchos substituíveis diretamente sobre a bebida, afetando a percepção olfativa.  
+
+O dispositivo é controlado por um aplicativo móvel via Bluetooth, permitindo que os usuários personalizem as combinações de sabor, aroma e cor, salvem predefinições e compartilhem suas criações com outras pessoas.  
+
+![Vocktail](Vocktail.png)  
+![Vocktail](Vocktail.mov)  
 
 #### Project Nourished
 
@@ -113,7 +127,7 @@ Esses dispositivos tentam simular sabores usando diferentes **métodos**, como:
 - Funcionamento: utiliza alimentos comestíveis de baixa caloria impressos em 3D, difusores de aromas e utensílios com sensores para criar experiências gastronômicas imersivas e simulações em VR.  
 - Exemplo: gelatina neutra pode ser percebida como uma torta de maçã ao combinar estímulos visuais, olfativos e táteis.  
 
-[Artigos_ProjectNourished](./Artigos_ProjectNourished.md)  
+[ProjectNourished](./ProjectNourished.md)  
 
 #### e-Taste – Simulação Química de Sabores
 
@@ -129,21 +143,71 @@ O sistema é composto por três componentes principais: ￼
 - Interface bucal com bomba eletromagnética: utiliza microfluídica para liberar soluções químicas através de um gel especial diretamente na língua do usuário, simulando os sabores detectados.  
 A intensidade do sabor pode ser ajustada conforme o tempo de interação da solução com o gel, permitindo a criação de sensações gustativas complexas.  
 
-[Artigos_eTaste](./Artigos_eTaste.md)
+![eTaste.mov](./eTaste.mov)  
+Fonte: <https://www.youtube.com/watch?v=hz4kQTjf3MQ>  
 
 #### Meta Cookie+
 
 - Desenvolvedor: pesquisadores da Universidade de Tóquio.  
-- Funcionamento: utiliza realidade aumentada para alterar a aparência de um biscoito real e libera aromas específicos para modificar a percepção do sabor, permitindo que um biscoito neutro seja percebido como de chocolate ou morango.  
+- Funcionamento: utiliza realidade aumentada, estímulos visuais e olfativos para alterar a percepção do sabor de um biscoito real e libera aromas específicos para modificar a percepção do sabor, permitindo que um biscoito neutro seja percebido como de chocolate ou morango.  
+O sistema consiste em um headset de realidade aumentada com uma câmera frontal que detecta marcadores visuais no biscoito, permitindo sobrepor imagens de diferentes sabores. Simultaneamente, um difusor de aromas libera cheiros correspondentes ao sabor visualizado, enganando o cérebro e modificando a experiência gustativa do usuário.
 
-#### Virtual Cookie
+![MetaCookiePlus](./MetaCookiePlus.mov)  
+Fonte: <https://www.youtube.com/watch?v=Oe39HQH78x4>  
 
-- Desenvolvedor: equipe de Takuji Narumi.  
-- Funcionamento: combina realidade aumentada com aromas para alterar a percepção do sabor de alimentos reais. Por exemplo, um biscoito neutro pode ser percebido como de morango ou chocolate ao sincronizar imagens e aromas específicos.  
+#### Thermal Taste Actuator
 
-#### Vocktail (Virtual Cocktail)
+O que é: Um dispositivo que muda a temperatura da língua para criar ilusões de sabor (por exemplo, frio simulando menta).  
+Uso em RA/RV: Pode ser embutido em utensílios de jogos ou simuladores alimentares.  
+Experimento comum em interfaces multissensoriais.  
+Status: Ainda em protótipo experimental.  
 
-Modifica sabor da água com estímulos elétricos e LED, além de aroma.  
+#### Taste Display - Norimaki Synthesizer
+
+Desenvolvido por: Prof. Homei Miyashita (Meiji University, Japão).  
+Meiji University, Japão.  
+O que faz: Usa géis eletroestimulantes para simular cinco sabores básicos (doce, salgado, azedo, amargo e umami) diretamente na língua.  
+Curiosidade: Os sabores podem ser ativados por voltagem, sendo possível sincronizá-los com vídeos ou ambientes RV.  
+Ano: 2020.  
+
+![TasteDisplay](TasteDisplay.png)  
+![TasteDisplay](TasteDisplay.mov)  
+Fonte: <https://www.youtube.com/watch?v=7HIm4LoAZxU>  
+
+#### AR Taste Enhancers
+
+Conceito: Dispositivos de RA (como óculos) que alteram a percepção do gosto por meio da visão ou som. Ex: mudar a cor da bebida para parecer mais doce.  
+Exemplo: Trabalhos experimentais no MIT Media Lab.  
+
+#### Mixed Reality Kitchen Tools
+
+Garfos, colheres e canudos com eletrodos integrados que estimulam a língua durante simulações de cozinha.  
+Usados em pesquisas de gastronomia digital e RV imersiva.  
+
+#### Virtual Sweet Spoon
+
+Utensílio que estimula a percepção de doçura com corrente elétrica em vez de açúcar.  
+Pesquisado por Ranasinghe para ajudar pessoas com restrições alimentares.  
+
+#### Electric Taste Machine
+
+Simula sabores usando pulsos elétricos diretamente no palato ou na língua.  
+Integrável a fones de ouvido ou máscaras de RV.  
+
+#### Gustatory Display for VR/AR (Taste+ Project)
+
+Projeto da City University of London.  
+Objetiva integrar sabores a jogos e vídeos imersivos com feedback sincronizado de sabor.  
+
+#### Augmented Gustation using Visual Cues (MIT Media Lab)
+
+Altera a percepção de sabor por modificações visuais, como cor e textura em RA.  
+Exemplo: transformar uma bebida clara em suco de laranja digitalmente para alterar a percepção gustativa.  
+
+#### Multisensory XR System com Feedback Gustativo Integrado (HCI Labs)
+
+Sistemas que integram visão, som, cheiro e paladar, com canudos ou dispositivos embutidos em headsets VR.  
+Ainda em fase de pesquisa, mas com potencial para entretenimento e treinamento culinário.  
 
 ## Aplicações
 
