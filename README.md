@@ -74,3 +74,8 @@ Congressos de RV
 Nacional: SVR — Symposium on Virtual and Augmented Reality  
 
 Internacional: IEEE VR (Virtual Reality Conference), ACM SIGGRAPH (Realidade Virtual, Realidade Aumentada e XR) e ISMAR (IEEE International Symposium on Mixed and Augmented Reality).  
+
+## 2025-05-13 - 10:31
+
+Próximos trabalhos:
+![TrabalhosProximos](TrabalhosProximos.png)  
