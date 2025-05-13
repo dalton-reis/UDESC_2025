@@ -1,3 +1,5 @@
+# Avaliações
+
 ## Gabriel
 
 Visão Binocular não é Estereoscopia. Os dois olhos olham duas imagens diferentes.  
@@ -139,4 +141,99 @@ HMT-1 (Realwear) Head Mounted Tablet
 Raptor (export)
 BMW Glass (pode ser usado lei de transito)
 
-Output 
+Output  
+
+## Matheus
+
+Emerge Wave-I
+Myo Armband
+
+Ipoclorito // limpa os dois (virus - bactérias)  
+
+## Antônio
+
+CAREN  
+
+Um pouco de erros nos slides.  
+
+## Henrique
+
+Interações naturais: gestos  
+
+WiGest  
+Ok, mas as diferenças de emissores e receptores pode complicar muito  
+
+WiSee
+
+--
+
+VR Ink (Longitech)
+Caneta para o Quest   
+
+Joy-Con
+Ring-Con
+
+Holográficos
+
+Breylon Ultra Reality
+
+Sony Holographic Display
+
+Looking Glass Portratit
+
+Leia Lume Pad 2
+
+Holobox
+
+Google Soli
+
+## Lauro
+
+XR 
+Full Body Optical
+
+## Alexandre
+
+Flock of Birds (tracker)
+6 DOFs
+
+Null Space VR Mark 2 Suit
+
+Reality Vest N64, Rapture Vest
+
+Tesla Suit
+
+CardBoard o "botão do ímã"
+
+## Brenno
+
+VirtuSphere
+CyberWalk / CyberCarpet
+
+Cybertith Virtualizer 2
+
+HoloTile Dyney
+
+Omino Rodas robô
+
+Holotron
+
+ominidirecional
+
+deambulancia
+
+## Luis Alfredo
+
+HMD
+Video-See-Through (VST)
+Layout subpixel
+
+Canetas
+
+## Luciana
+
+11:28
+
+Bafometros
+
+Detector de fumaça
