@@ -26,3 +26,6 @@ PONTO EXTRA (0,5) caso o estudante inclua Informações/Conceitos de Artigos de 
 ### Livro
 
 TORI, R.; HOUNSELL, M. DA S. Introdução a Realidade Virtual e Aumentada. \[s.l.] Sociedade Brasileira de Computação, 2020.  
+
+### Artigo SVR TCC
+
