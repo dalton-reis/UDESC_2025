@@ -4,7 +4,7 @@ Horário: 15:10~16:50 .. 20 intervalo .. 17:10~18:50
 Moodle CCT  
 Minha Biblioteca (acesso portal da UDESC)  
 Conta CAFe: periódicos  
-marcelo.hounsell@udesc.br  
+[marcelo.hounsell@udesc.br](mailto:marcelo.hounsell@udesc.br)
 
 Formato escrito SBC  
 
@@ -22,7 +22,7 @@ Laboratório LARVA -> F-111
 [LARVA Facebook](https://web.facebook.com/LARVA.UDESC/?locale=pt_BR&_rdc=1&_rdr)  
 
 Journal on Interactive Systems (revista Qualis A4 Brasileira)  
-Livro do Pré-Simpósio do SVR: [Livro](/Users/daltonreis/GitHub/disciplinas/RV/disciplina_RV_Privado/Unidade1/RealidadeVirtual_imgs/Conceitos-rv-ra.pdf)  
+Livro do Pré-Simpósio do SVR: [Livro](marginnote4app://note/E8767966-1DA4-4D96-B67E-9052CDBAF6E5)  
 Parte 1: Conceitos  
 Parte 2: Métodos, Técnicas e Tecnologias  
 Parte 3: Aplicações (desatualizado)  

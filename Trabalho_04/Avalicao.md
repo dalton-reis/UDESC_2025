@@ -46,7 +46,7 @@ Holograma Ano 1948.
 
 ## Nhatália
 
-8:43 
+8:43  
 
 Mesa Digitalizadora.  
 
@@ -70,7 +70,7 @@ olfato e Paladar
 
 bHaptics TecSuit X40  
 
-8:43 
+8:43  
 
 ## Monica
 
@@ -168,7 +168,7 @@ WiSee
 --
 
 VR Ink (Longitech)
-Caneta para o Quest   
+Caneta para o Quest  
 
 Joy-Con
 Ring-Con
@@ -189,7 +189,7 @@ Google Soli
 
 ## Lauro
 
-XR 
+XR  
 Full Body Optical
 
 ## Alexandre
