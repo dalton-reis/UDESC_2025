@@ -10,8 +10,8 @@
 \usepackage[brazil]{babel}
 \usepackage{hyperref}
 
-\title[Introdução à Realidade Virtual e Aumentada]{Introdução à Realidade Virtual e Aumentada}
-\subtitle{Cap. 8 - Ambientes virtuais online - Pré-Simpósio SVR 2020}
+\title[XR Distribuído – Técnicas de Sincronização]{XR Distribuído – Técnicas de Sincronização}
+\subtitle{Ambientes virtuais online (cap 8 até 8.4 - pag. 120 a 129)}
 
 \author[Dalton Solano dos Reis]{
   Dalton Solano dos Reis\texorpdfstring{\\\medskip}{}%
@@ -29,198 +29,291 @@
 
 \end{frame}
 
-\section{Pesquisa}
+% 8.1 Introdução
+\section{8.1 Introdução}
+
 \begin{frame}
-  \frametitle{Enunciado}
+  \frametitle{Pesquisa}
   \begin{itemize}
-    \item 1. Tecnologia para XR Distribuído – Técnicas de Sincronização (cap 8 até   8.4 - pag. 120 a 129)  
+    \item TORI, Romero; HOUNSELL, Marcelo da Silva. Introdução a Realidade Virtual e Aumentada. [S.l.]: Sociedade Brasileira de Computação, 2020. 
+    \item REIS, D. S.; EDUARDO, V. ; GOMES, P. C. R. ; FÉIJO, B. . DIS-Java3D para Ambientes Interativos Distribuídos em Rede. Simpósio de Realidade Virtual, Fortaleza, v. V, p. 45-56, 2002
   \end{itemize}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Artigo SVR}
-  Introdução a Realidade Virtual e Aumentada, 2020. \\
+  \frametitle{História}
+    \begin{itemize}
+      \item Ambientes Virtuais Distribuídos (AVDs)
+      \begin{itemize}
+        \item Todo o tipo de simulação distribuída e interativa de um ambiente virtual compartilhado por vários usuários
+      \end{itemize}
+      \item SIMNET (Simulator Networking)
+      \begin{itemize}
+        \item primeiro AVD construído (1983)
+        \item Defense Advanced Research Projects Agency (DARPA)
+        \item precursor direto
+        \begin{itemize}
+          \item Massively Multiplayer Online Role-Playing Game (MMORPG)
+          \item Simuladores de Realidade Virtual Militar
+        \end{itemize}
+        \item solução ainda útil: novo projeto de AVD
+      \end{itemize} 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{História}
+    \begin{itemize}
+      \item Online multijogador: Quake (1996)
+      \item MMOGs: World of Warcraft (1994) e Everquest (1999)
+      \item Marco 2017: interesse mercado RV e RA
+      \begin{itemize}
+        \item Aumentando a fidelidade e capacidade de imersão
+        \item Baixando seus custos de produção
+        \item Pesquisa e desenvolvimento em redes e Internet
+        \item Maioria usava arquiteturas cliente-servidor
+      \end{itemize}
+    \end{itemize}
+  \end{frame}
+  
+  % 8.2 Simulação distribuída interativa: conceitos básicos
+  \section{8.2 Conceitos}
+  \begin{frame}
+    \frametitle{AVDs}
+    \begin{itemize}
+      \item Simulação distribuída interativa
+      \item Realidade virtual compartilhada
+      \item Preocupações
+      \begin{itemize}
+        \item Reduzir a largura de banda
+        \item Sincronização das várias versões do mundo virtual
+      \end{itemize}
+      \item Protocolos:
+      \begin{itemize}
+        \item original: Distributed Interactive Simulation (DIS)
+        \item sucedido: High-Level Architecture (HLA)
+        \item padrões IEEE: DIS e HLA
+      \end{itemize}
+      \item Técnicas
+      \begin{itemize}
+        \item Filtragem por área de interesse
+        \item Extrapolação de movimentos
+      \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% 8.3 Sincronização entre cliente e servidor de um AVD
+\section{8.3 Sincronização}
+
+\begin{frame}
+  \frametitle{8.3 Cliente e Servidor}
+    \begin{itemize}
+        \item Clientes enviam comandos e recebem atualizações do servidor
+        \item O servidor mantém o estado autoritativo do mundo virtual
+        \item \textbf{Vantagens}: controle centralizado
+        \item \textbf{Desvantagens}: alta demanda no servidor e latência
+        \item Elementos de modelagem
+        \begin{itemize}
+          \item Terrenos
+          \item Avatares: controlado pelo cliente
+          \item Tratamento de colisão
+        \end{itemize}
+        \item Cenário: aplicações não-competitivas
+        \begin{itemize}
+          \item Ambientes Virtuais Colaborativos (AVCs)
+          \item aplicações de tele-presença
+          \item jogos cooperativos
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% 8.3.1 Um protocolo básico para AVDs cliente-servidor baseados em avatares
+\begin{frame}
+  \frametitle{8.3.1 Protocolo Básico}
   \begin{itemize}
-    \item Pag. 52: \textbf{paladar} alvo de investigações e produtos inovadores
-    \item Pag. 153: A sensibilidade, o odor e o \textbf{paladar} estão longe de ser experimentados. Essas são as buscas dos cientistas das próximas gerações
-    \item Pag. 191: olfato e \textbf{paladar} ainda não são pesquisados amplamente
-    \item Pag. 407: maior interação quando se utiliza acessórios para aumentar a percepção (\textbf{paladar})
+    \item Servidor
+    \begin{itemize}
+      \item executa um passo de simulação
+      \item utiliza a informação dos dispositivos de entrada
+      \item executa este comando sobre a cópia autoritativa
+    \end{itemize}
   \end{itemize}
-  \begin{flushright}
-    \scriptsize
-    \cite{toriIntroducaoRealidadeVirtual2020}
-  \end{flushright}
-\end{frame}
-
-\section{Conceitos}
-\begin{frame}
-  \frametitle{Visão geral}
-  Existem dispositivos experimentais de \textbf{paladar} para Realidade Virtual (VR), mas ainda estão em estágios iniciais de desenvolvimento e não são amplamente disponíveis como os dispositivos visuais, auditivos ou táteis (hápticos) \\
-  \vspace{\baselineskip}
-  Dois grupos (sentidos):
   \begin{itemize}
-  \item visão, audição e tato
-  \item olfato e palar
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Dispositivos de paladar: métodos}
-  \begin{itemize}
-    \item Estimulação elétrica da língua
+    \item Cliente
     \begin{itemize}
-      \item eletrodos na língua para estimular os receptores gustativos
-      \item simular sensações como azedo, salgado, doce ou metálico
-    \end{itemize}
-    \item Estimulação térmica
-    \begin{itemize}
-      \item mudanças de temperatura: afetam a percepção do sabor
-      \item calor e frio para simular (picante ou refrescante)  
-    \end{itemize}
-    \item Sprays ou cartuchos de aroma e gosto
-    \begin{itemize}
-      \item dispositivos liberam aromas ou microgotas com sabor
-      \item pode ser acoplado a fones de ouvido ou óculos VR
-    \end{itemize}
-    \item Realidade gustativa combinada
-    \begin{itemize}
-      \item RA com alimentos reais: comer algo neutro (biscoito sem sabor), enquanto o sistema altera visualmente e aromaticamente o alimento, convencendo o cérebro de que é algo diferente
+      \item recebe mensagem de atualização do servidor
+      \item move todas as cópias dos avatares locais
     \end{itemize}
   \end{itemize}
-\end{frame}
-
-\section{Dispositivos}
-\begin{frame}
-  \frametitle{Exemplos de dispositivos}
-  Dispositivos encontrados:
-  \begin{multicols}{2}
-    \begin{itemize}
-      \item \textbf{Digital Lollipop}
-      \item \textbf{Vocktail}
-      \item Project Nourished
-      \item e-Taste
-      \item Meta Cookie+
-      \item Thermal Taste Actuator
-      \item Taste Display Synthesizer
-      \item AR Taste Enhancers
-      \item Mixed Reality Kitchen
-      \item Virtual Sweet Spoon
-      \item Electric Taste Machine
-      \item Taste+ Project
-      \item Augmented Gustation
-      \item Multisensory XR System
-    \end{itemize}
-  \end{multicols}  
-  \begin{flushright}
-    \scriptsize
-    14 hardwares
-  \end{flushright}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Digital Taste Interface (DTI) - Digital Lollipop}
-  \begin{itemize}
-    \item Nimesha Ranasinghe - Universidade de Singapura
-    \item Ano: 2013 (protótipo inicial)
-    \item Método: estimulação elétrica  e térmica da Língua
-    \item Sabores: doce, salgado, azedo e amargo
-    \item Aplicações:
-    \begin{itemize}
-      \item entretenimento
-      \item auxiliar pessoas com restrições alimentares (diabéticos - simular sabores sem a ingestão real de açúcar)
-    \end{itemize}
-    \item Dispositivo: eletrodos de prata na ponta da língua para aplicar correntes elétricas de baixa intensidade, com variações de magnitude, frequência e polaridade
-    \item Explora: Taste Over Internet Protocol (\textbf{TOIP})
-    \begin{itemize}
-      \item transmitir informações gustativas digitalmente entre locais
-    \end{itemize}
-  \end{itemize}
-  \begin{flushright}
-    \scriptsize
-    \cite{ranasingheTongueMountedInterface2012}
-    \cite{ranasingheVirtualTasteDigital2023}
-  \end{flushright}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Digital Taste Interface (DTI) - Digital Lollipop}
   \begin{figure}[h]
     \centering
-    \caption{Dispositivo Digital Lollipop}
     \vspace{-18pt}
-    \includegraphics[width=1.03\textwidth]{img_DigitalLollipop.png}
+    \includegraphics[width=1.03\textwidth]{imagem_81.png}
     \vspace{-20pt}
-    \caption*{Fonte: \cite{ranasingheDigitalLollipopStudying2016}.}
+  \end{figure}
+  \begin{itemize}
+    \item Custo: O($N^2$)
+    \begin{itemize}
+      \item maneiras de se mitigar
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Técnica Heartbeat}
+  \begin{itemize}
+    \item \textbf{Definição}: sinalização periódica entre clientes e servidores
+    \item \textbf{Objetivos}:
+    \begin{itemize}
+      \item Verificar se clientes e servidores estão ativos
+      \item Detectar falhas de conexão ou inatividade
+    \end{itemize}
+    \item \textbf{Funcionamento}:
+    \begin{itemize}
+      \item Envio de mensagens de "heartbeat" em intervalos regulares
+      \item Ausência de heartbeat indica desconexão ou falha
+    \end{itemize}
+    \item \textbf{Aplicações}:
+    \begin{itemize}
+      \item Gerenciar sessões de usuários
+      \item Manter a integridade do ambiente virtual
+      \item Liberar recursos de clientes desconectados
+    \end{itemize}
+  \end{itemize}
+  \begin{flushright}
+    \scriptsize
+    Reis \textit{et al.} (2002)
+  \end{flushright}
+\end{frame}
+
+
+% 8.3.2 Filtragem por interesse
+\begin{frame} 
+  \frametitle{8.3.2 Filtragem por interesse}
+  \begin{itemize}
+    \item Envio de dados aos avatares relevantes (próximos e visíveis)
+    \item Exemplo: mundo virtual simplificado com 4 avatares
+  \end{itemize}
+  \begin{figure}[h]
+    \centering
+    \vspace{-18pt}
+    \includegraphics[width=1.03\textwidth]{imagem_82.png}
+    \vspace{-20pt}
+  \end{figure}
+\end{frame}
+
+\begin{frame} 
+  \frametitle{8.3.2 Filtragem por interesse: avatares}
+  \begin{itemize}
+    \item Listrado: atrás da parede e não é relevante os para outros
+  \end{itemize}
+  \begin{figure}[h]
+    \centering
+    \vspace{-18pt}
+    \includegraphics[width=1.03\textwidth]{imagem_82_Listrado.png}
+    \vspace{-20pt}
+  \end{figure}
+\end{frame}
+
+\begin{frame} 
+  \frametitle{8.3.2 Filtragem por interesse: avatares}
+  \begin{itemize}
+    \item Cinza: entre os avatares branco e preto, sendo relevante a eles
+  \end{itemize}
+  \begin{figure}[h]
+    \centering
+    \vspace{-18pt}
+    \includegraphics[width=1.03\textwidth]{imagem_82_Cinza.png}
+    \vspace{-20pt}
+  \end{figure}
+\end{frame}
+
+\begin{frame} 
+  \frametitle{8.3.2 Filtragem por interesse: avatares}
+  \begin{itemize}
+    \item Preto: círculo pontilhado - área de interesse
+    \item fora da área: irrelevantes (poupando processamento)
+  \end{itemize}
+  \begin{figure}[h]
+    \centering
+    \vspace{-18pt}
+    \includegraphics[width=1.03\textwidth]{imagem_82_Preto.png}
+    \vspace{-20pt}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{}
+  \frametitle{8.3.2 Filtragem por interesse}
+  Priorização por relevância
+    \begin{itemize}
+      \item Após a Filtragem por Interesse
+      \item Largura de banda é limitada
+      \begin{itemize}
+          \item Servidor: quais atualizações enviar (passo de simulação)
+          \item Exemplo: 
+          \begin{itemize}
+              \item Cercado por $N$ avatares, largura de banda $N/2$ atualizações
+              \item Passos pares: primeiros $N/2$ avatares
+              \item Passos ímpares: últimos $N/2$ avatares
+          \end{itemize}
+      \end{itemize}
+      \item Reduz-se a qualidade - mantém-se a atualização geral
+    \end{itemize}
+\end{frame}
+
+% 8.3.3 Extrapolação de movimentos
+\begin{frame}
+  \frametitle{8.3.3 Extrapolação de movimentos}
+  \begin{itemize}
+    \item Previsão de posições para suavizar animações
+    \item Técnica: Dead-reckoning
+  \end{itemize}
+  \begin{figure}[h]
+    \centering
+    \vspace{-18pt}
+    \includegraphics[width=1.03\textwidth]{imagem_83.png}
+    \vspace{-20pt}
   \end{figure}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Vocktail (Virtual Cocktail)}
+  \frametitle{8.3.3 Extrapolação de movimentos}
   \begin{itemize}
-    \item desenvolvido: Ranasinghe (Keio-NUS CUTE Center - 2017)
-    \item taça com uma base impressa 3D (componentes eletrônicos)
-    \item dispositivo interativo: aplicativo móvel via Bluetooth
-    \item usuários personalizem as combinações de sabor, aroma e cor
-    \item simula água simples seja percebida como um coquetel
-    \item estímulos sensoriais para criar sabores virtuais:
-    \begin{itemize}
-      \item visual: LEDs RGB - luzes coloridas influenciando o sabor
-      \item gustativo: eletrodos de prata na borda: salgado/azedo/amargo
-      \item olfativo: microbombas de ar liberam aromas de cartuchos
-    \end{itemize}
+    \item Técnica: Dead-reckoning
+    \item Técnica Heartbeat
+  \end{itemize}
+  \begin{figure}[h]
+    \centering
+    \vspace{-18pt}
+    \includegraphics[width=1.03\textwidth]{imagem_83_nova.png}
+    \vspace{-20pt}
+  \end{figure}
+\end{frame}
+
+% 8.3.4 Predição local de movimentos
+\begin{frame}
+  \frametitle{8.3.4 Predição local de movimentos}
+  \begin{itemize}
+    \item Reduz latência percebida pelo usuário
   \end{itemize}
 \end{frame}
 
-\section{Situação atual}
+% 8.4 Sincronização entre servidores de um mesmo AVD
+\section{8.4 Entre servidores}
+
 \begin{frame}
-  \frametitle{Situação atual}
-  Dispositivos ainda está em fase de protótipo ou pesquisa \\
-  \begin{itemize}
-    \item Interfaces Gustativas Portáteis
-    \begin{itemize}
-      \item pirulito que utilizam hidrogéis
-      \item substâncias químicas comestíveis
-      \item de 2 a 9 sabores diferentes (iontoforese)
-      \item ajustes na intensidade do sabor conforme a voltagem aplicada
-    \end{itemize}
-    \item Desafios:
-    \begin{itemize}
-      \item acesso: segurança e higiene
-      \item padronização dos sabores
-      \item garantia de segurança: substâncias químicas
-      \item miniaturização
-      \item sincronização multissensorial: experiências imersivas
-    \end{itemize}
-  \end{itemize}
+  \frametitle{8.4 Sincronização entre servidores}
+  \begin{figure}[h]
+    \centering
+    \vspace{-18pt}
+    \includegraphics[width=1.03\textwidth]{imagem_84.png}
+    \vspace{-20pt}
+  \end{figure}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Outro dispositivos}
-  \begin{flushright}
-    % \scriptsize
-    \cite{reisTrabalho4Interfaces2025} \\
-    \url{https://github.com/dalton-reis/UDESC_2025/blob/main/Trabalho_04/Readme.md}
-  \end{flushright}
-\end{frame}
-
-% \section{Referências}
-% \begin{frame}
-%   \frametitle{Referências pesquisadas}
-%   \begin{itemize}
-%     \item \cite{ranasingheDigitalLollipopStudying2016}
-%     \item \cite{ranasingheTongueMountedInterface2012}
-%     \item \cite{ranasingheVirtualTasteDigital2023}
-%     \cite{toriIntroducaoRealidadeVirtual2020}
-%   \end{itemize}
-% \end{frame}
-
-\begin{frame}
-  \frametitle{Referências}
-  \begingroup
-  \footnotesize
-    \bibliographystyle{sbc}
-    \bibliography{../../UDESC_RV}
-  \endgroup
+  \frametitle{Fim ...}
+  Perguntas ...
 \end{frame}
 
 \end{document}
