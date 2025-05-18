@@ -41,7 +41,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{História}
+  \frametitle{Contextualização}
     \begin{itemize}
       \item Ambientes Virtuais Distribuídos (AVDs)
       \begin{itemize}
@@ -62,16 +62,16 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{História}
+  \frametitle{Contextualização}
     \begin{itemize}
-      \item Online multijogador: Quake (1996)
+      \item Jogos online multijogador: Quake (1996)
       \item MMOGs: World of Warcraft (1994) e Everquest (1999)
       \item Marco 2017: interesse mercado RV e RA
       \begin{itemize}
-        \item Aumentando a fidelidade e capacidade de imersão
-        \item Baixando seus custos de produção
-        \item Pesquisa e desenvolvimento em redes e Internet
-        \item Maioria usava arquiteturas cliente-servidor
+        \item Aumento a fidelidade e capacidade de imersão
+        \item Baixar seus custos de produção
+        \item Mais pesquisa e desenvolvimento em redes e Internet
+        \item Grande uso arquiteturas cliente-servidor
       \end{itemize}
     \end{itemize}
   \end{frame}
@@ -159,34 +159,6 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}
-  \frametitle{Técnica Heartbeat}
-  \begin{itemize}
-    \item \textbf{Definição}: sinalização periódica entre clientes e servidores
-    \item \textbf{Objetivos}:
-    \begin{itemize}
-      \item Verificar se clientes e servidores estão ativos
-      \item Detectar falhas de conexão ou inatividade
-    \end{itemize}
-    \item \textbf{Funcionamento}:
-    \begin{itemize}
-      \item Envio de mensagens de "heartbeat" em intervalos regulares
-      \item Ausência de heartbeat indica desconexão ou falha
-    \end{itemize}
-    \item \textbf{Aplicações}:
-    \begin{itemize}
-      \item Gerenciar sessões de usuários
-      \item Manter a integridade do ambiente virtual
-      \item Liberar recursos de clientes desconectados
-    \end{itemize}
-  \end{itemize}
-  \begin{flushright}
-    \scriptsize
-    Reis \textit{et al.} (2002)
-  \end{flushright}
-\end{frame}
-
-
 % 8.3.2 Filtragem por interesse
 \begin{frame} 
   \frametitle{8.3.2 Filtragem por interesse}
@@ -267,6 +239,7 @@
   \begin{itemize}
     \item Previsão de posições para suavizar animações
     \item Técnica: Dead-reckoning
+    \item Equação balística: último vetor de velocidade recebido para um objeto remoto permanece constante
   \end{itemize}
   \begin{figure}[h]
     \centering
@@ -276,12 +249,62 @@
   \end{figure}
 \end{frame}
 
+% 8.3.4 Predição local de movimentos
 \begin{frame}
-  \frametitle{8.3.3 Extrapolação de movimentos}
+  \frametitle{8.3.4 Predição local de movimentos}
   \begin{itemize}
-    \item Técnica: Dead-reckoning
+    \item Resolver problemas da "Extrapolação de movimentos"
+    \item Reduz latência percebida pelo usuário
+    \item Cliente: precisa simular a aceleração e a animação do avatar
+    \item Induz uma complexidade adicional no lado cliente
+    \item Jogos online multijogador: usam essas técnicas
+    \begin{itemize}
+      \item Protocolo
+      \item Filtragem por interesse
+      \item Extrapolação de movimentos (Dead-reckoning)
+      \item Predição local de movimentos
+    \end{itemize}
     \item Técnica Heartbeat
+    \begin{itemize}
+      \item "Batimento Cardíaco" / Pulso de Comunicação
+      \begin{flushright}
+        \scriptsize
+          Reis \textit{et al.} (2002)
+        \end{flushright}
+      \end{itemize}
   \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Técnica Heartbeat}
+  \begin{itemize}
+    \item \textbf{Definição}: sinalização periódica entre clientes e servidores
+    \item \textbf{Objetivos}:
+    \begin{itemize}
+      \item Verificar se clientes e servidores estão ativos
+      \item Detectar falhas de conexão ou inatividade
+      \item Enviar atualizações do estado do servidor para o cliente
+    \end{itemize}
+    \item \textbf{Funcionamento}:
+    \begin{itemize}
+      \item Envio de mensagens de "heartbeat" em intervalos regulares
+      \item Ausência de heartbeat indica desconexão ou falha
+    \end{itemize}
+    \item \textbf{Aplicações}:
+    \begin{itemize}
+      \item Gerenciar sessões de usuários
+      \item Liberar recursos de clientes desconectados
+      \item Manter a integridade do ambiente virtual
+    \end{itemize}
+  \end{itemize}
+  \begin{flushright}
+    \scriptsize
+    Reis \textit{et al.} (2002)
+  \end{flushright}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Técnicas usadas}
   \begin{figure}[h]
     \centering
     \vspace{-18pt}
@@ -290,16 +313,29 @@
   \end{figure}
 \end{frame}
 
-% 8.3.4 Predição local de movimentos
-\begin{frame}
-  \frametitle{8.3.4 Predição local de movimentos}
-  \begin{itemize}
-    \item Reduz latência percebida pelo usuário
-  \end{itemize}
-\end{frame}
-
 % 8.4 Sincronização entre servidores de um mesmo AVD
 \section{8.4 Entre servidores}
+
+\begin{frame}
+  \frametitle{8.4 Sincronização entre servidores}
+  \begin{itemize}
+    \item Centenas de milhares de usuários simultâneos
+    \item Estratégia de distribuir a função de simulação do lado servidor
+    \item Rede em múltiplas máquinas servidoras
+    \item Algoritmo de simulação distribuída interativa
+    \begin{itemize}
+      \item Dividir mundo virtual: células contíguas (simulação distribuída)
+      \item Reservar processo lógico para cada uma dessas células
+      \item Processo lógico fica responsável pela simulação local
+      \item Objeto move além da fronteira: transfere processo
+      \item Problema: concentrações de objetos interativos
+      \begin{itemize}
+        \item tráfego de comandos entre células  adjacentes
+        \item células adjacentes subutilizadas
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{frame}
 
 \begin{frame}
   \frametitle{8.4 Sincronização entre servidores}
@@ -314,6 +350,12 @@
 \begin{frame}
   \frametitle{Fim ...}
   Perguntas ...
+\end{frame}
+
+\begin{frame}
+  \frametitle{Perguntas}
+  XR Distribuído – Técnicas de Sincronização \\
+  Ambientes virtuais online (cap 8 até 8.4 - pag. 120 a 129)
 \end{frame}
 
 \end{document}
